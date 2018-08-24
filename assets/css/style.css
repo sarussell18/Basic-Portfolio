@@ -5,7 +5,7 @@ html, body {
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 	background-color: #efefef;
-  background: #efefef 
+   	background: #efefef;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -58,7 +58,7 @@ header .container {
 	background-color: #4aaaa5;
 	color: #ffffff;
 	padding: 1em;
-	width: auto;
+	width: 0px auto;
 }
 
 
@@ -83,18 +83,21 @@ header .container {
 }
 
 .content {
-	width: 960px;
+	max-width: 960px;
 	clear: both;
-	margin: 0 auto 6em auto;
+	margin: 0px auto;
 }
 
 .main {
 	display: inline-block;
-	width: 570px;
+	width: 960px;
 	margin: 40px 0;
 	padding: 40px;
 	background-color: #ffffff;
 	border: 1px solid #dddddd;
+}
+#me {
+    padding: 0px 20px 20px 0px;
 }
 
 .main h1 {
@@ -103,6 +106,7 @@ header .container {
 	padding-bottom: 1em;
 	margin-bottom: 0.8em;
 	border-bottom: 2px solid #dddddd;
+	margin: 0px auto;
 }
 
 .main p {
@@ -180,3 +184,5 @@ div.right{
 	display: inline-block;
   width: 250px;
   height: 250px;}
+  
+  
